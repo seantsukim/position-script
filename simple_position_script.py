@@ -1,5 +1,3 @@
-import pyinkscape
-
 #this is a script to get the positions of images into the inkscape svg
 #these are the position and scale variables for the images
 #start_x & start_y handle the position of the image
@@ -42,4 +40,3 @@ index = 1
 for pos in eight_proxy_pos:
     print("proxy position", index ,pos[0:-1], ", Rotate Clockwise:", pos[-1])
     index = index + 1 
-print(pyinkscape.__version__)
